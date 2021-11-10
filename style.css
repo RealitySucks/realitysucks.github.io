@@ -166,9 +166,11 @@ a:hover {
     text-align: center;
     width:100%;
     height:400px;
+    line-height: 400px;
     font-size: 60px;
     font-family: 'Caveat';
     color: white;
     position: absolute;
-    transform: translateY(50%);
+    top: 50%;
+    transform: translateY(-50%);
 }
